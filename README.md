@@ -7,5 +7,6 @@ This repository provides the `raftboltdb` package. The package exports the
 It is meant to be used as a backend for the `raft` [package
 here](https://github.com/hashicorp/raft).
 
-This implementation uses [BoltDB](https://github.com/boltdb/bolt). BoltDB is
-a simple key/value store implemented in pure Go, and inspired by LMDB.
+This implementation uses the [bbolt](https://github.com/etcd-io/bbolt) fork of
+[BoltDB](https://github.com/boltdb/bolt). BoltDB is a simple key/value store
+implemented in pure Go, and inspired by LMDB.
